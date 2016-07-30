@@ -2,10 +2,10 @@ var webpack = require('webpack');
 
 module.exports = {
     entry: {
-    	main: "./src/js/main"
+    	main: "./src/js/index"
     },
     output: {
-        path: __dirname + "/dist/js",
+        path: __dirname + "/js",
         filename: "bundle.js"
     },
     plugins: [
@@ -13,12 +13,7 @@ module.exports = {
             $: "jquery",
             jquery: "jQuery",
             "windows.jQuery": "jquery"
-        }), 
-        new webpack.optimize.UglifyJsPlugin({
-		    compress: {
-		        warnings: false
-		    }
-		})
+        })
     ],
     module: {
 		loaders: [

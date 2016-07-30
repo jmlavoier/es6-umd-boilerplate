@@ -59,6 +59,8 @@ gulp.task('watchers', function (){
     }));
 });
 
+gulp.task('build', ['sass', 'webpack']);
+
 gulp.task('default', ['watchers']);
 
 
