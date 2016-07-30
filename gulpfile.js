@@ -68,7 +68,7 @@ gulp.task('watchers', function (){
     }));
 });
 
-gulp.task('build', ['sass', 'uglify']);
+gulp.task('build', ['sass', 'uglify', 'sprites']);
 
 gulp.task('default', ['watchers']);
 
