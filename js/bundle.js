@@ -46,19 +46,15 @@
 
 	"use strict";
 
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
 	var _App = __webpack_require__(1);
 
 	var _App2 = _interopRequireDefault(_App);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	exports.default = _App2.default; /**
-	                                 * ES6 Boilerplate 
-	                                 **/
+	new _App2.default(); /**
+	                     * ES6 Boilerplate 
+	                     **/
 
 /***/ },
 /* 1 */

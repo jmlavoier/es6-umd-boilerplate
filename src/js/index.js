@@ -4,4 +4,4 @@
 
 import App from "./App";
 
-export default App;
+new App();
