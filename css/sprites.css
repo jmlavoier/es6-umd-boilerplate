@@ -1,0 +1,26 @@
+
+    .s {
+      display: block;
+      background-image: url('../img/sprite.png');
+    }
+
+  .s-Sport-baseball-icon {
+    background-position: -0px -0px;
+    width: 72px;
+    height: 72px;
+  }
+  .s-Sport-basketball-icon {
+    background-position: -0px -72px;
+    width: 72px;
+    height: 72px;
+  }
+  .s-Sport-football-icon {
+    background-position: -0px -144px;
+    width: 72px;
+    height: 72px;
+  }
+  .s-Sport-tennis-icon {
+    background-position: -0px -216px;
+    width: 72px;
+    height: 72px;
+  }

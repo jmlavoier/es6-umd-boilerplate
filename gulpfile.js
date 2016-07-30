@@ -46,7 +46,7 @@ gulp.task('sprites', function () {
 				out: './img/',
 				template: './src/scss/sprity.hbs',
 				cssPath: '../img/',
-				style: '../../css/sprites.css',
+				style: '../css/sprites.css',
 				prefix: 's'
 			}, function () {
 				gutil.log('sprity: success!');
