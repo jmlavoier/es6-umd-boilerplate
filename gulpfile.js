@@ -9,6 +9,15 @@ var sass = require('gulp-sass');
 var webpack = require('webpack');
 var webpackConfig = require('./webpack.config');
 var sprity = require('sprity');
+var uglify = require('gulp-uglifyjs');
+
+gulp.task('uglify', ['webpack'] ,function() {
+  gulp.src('js/bundle.js')
+    .pipe(uglify('bundle.min.js', {
+      outSourceMap: true
+    }))
+    .pipe(gulp.dest('js'))
+});
 
 gulp.task('sass', function () {
   	 return gulp.src('./src/scss/**/*.scss')
@@ -59,7 +68,7 @@ gulp.task('watchers', function (){
     }));
 });
 
-gulp.task('build', ['sass', 'webpack']);
+gulp.task('build', ['sass', 'uglify']);
 
 gulp.task('default', ['watchers']);
 
