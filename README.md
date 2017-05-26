@@ -25,7 +25,7 @@ npm install
 npm install gulp
 ```
 
-##Building project
+## Building project
 
 ```shell
 #To build css, js, and images sprites
