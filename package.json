@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "jquery": "^2.2.3"
+    "jquery": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.4",
